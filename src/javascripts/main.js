@@ -1,10 +1,10 @@
 import '../styles/main.scss';
 import 'bootstrap';
+import placesCards from './components/placesCards/placesCards';
 // import $ from 'jquery';
 
 const init = () => {
-  // $('.btn').on('click', (console.log('hi')));
-  document.getElementById('btn').addEventListener('click', (console.log('hi.')));
+  placesCards.printPlacesCard();
 };
 
 init();
