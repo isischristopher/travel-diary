@@ -1,12 +1,13 @@
 import places from '../../helpers/data/places';
 import utilities from '../../helpers/utilities';
+import './placesCards.scss';
 
 const printPlacesCard = () => {
   const place = places.getPlaces();
   let domString = '';
   for (let i = 0; i < place.length; i += 1) {
     domString += `
-        <div class="card" style="width: 18rem;">
+        <div class="card">
             <img src="${place[i].image}" class="card-img-top" alt="...">
             <div class="card-body">
                 <h5 class="card-title">${place[i].title}</h5>

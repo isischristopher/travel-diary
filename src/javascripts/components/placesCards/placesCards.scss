@@ -1,0 +1,23 @@
+body {
+    display: flex;
+    
+
+    #card-zone{
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    .card {
+        justify-content: space-evenly;
+        height: auto;
+        display: inline-block;
+        background: rosybrown;
+        margin: 10px 0 0 10px;
+        flex: 1 0 21%;
+        width: 29%;
+        
+    
+        
+
+    }
+}
