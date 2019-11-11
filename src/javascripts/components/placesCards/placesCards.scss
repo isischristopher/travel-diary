@@ -1,26 +1,30 @@
 body {
-    display: flex;
-    
+    margin: 10px 10px 10px 5px;
 
+    .heading {
+        text-align: center;
+    }
+    
     #card-zone{
+        display: flex;
         flex-direction: row;
         flex-wrap: wrap;
+        justify-content: center;
     }
 
     .card {
-        justify-content: space-evenly;
         height: auto;
         display: inline-block;
         background: rosybrown;
         margin: 10px 0 0 10px;
-        flex: 1 0 21%;
-        width: 29%;
-        align-items: stretch;
+        max-width: 29%;
         
     }
 
     .card-text {
-        height: 800px;
+        height: 750px;
+        font-size: 13px;
+        text-align: justify; 
     }
 
     .card-img-top {
