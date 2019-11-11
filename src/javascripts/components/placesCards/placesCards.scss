@@ -15,9 +15,15 @@ body {
         margin: 10px 0 0 10px;
         flex: 1 0 21%;
         width: 29%;
+        align-items: stretch;
         
-    
-        
+    }
 
+    .card-text {
+        height: 800px;
+    }
+
+    .card-img-top {
+        height: 300px;
     }
 }
